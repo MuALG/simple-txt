@@ -1,8 +1,11 @@
 {
-  "name": "simple-txt",
+  "name": "mg-simple-txt",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "dependencies": {
+    "simple-txt": "^7.5.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

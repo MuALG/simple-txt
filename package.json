@@ -1,14 +1,7 @@
 {
-  "name": "txtfile-library",
+  "name": "simple-txt",
   "main": "index.js",
-  "dependencies": {
-    "simple-txt": "^7.3.0"
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
 }

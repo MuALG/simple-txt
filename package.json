@@ -1,7 +1,20 @@
 {
   "name": "simple-txt",
+  "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Muatafa-ALGhanim/simple-txt.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Muatafa-ALGhanim/simple-txt/issues"
+  },
+  "homepage": "https://github.com/Muatafa-ALGhanim/simple-txt#readme"
 }

@@ -3,6 +3,9 @@
 You can easily modify, add, check for a specific text or delete the entire txt file content, without complications.
 <br /><br />
 
+You can easily modify, add, check for a specific text or delete the entire txt file content, without complications.
+<br /><br />
+
 Installation
 ------------
 
@@ -12,6 +15,7 @@ Installation
 
 Setup
 -----
+
 
 
 ```js
@@ -42,18 +46,32 @@ Add (default)
 -----
 `index.js`
 ```js
-txt.set('hello');
+txt.add('hello');
 txt.add('world');
-
 ```
 
  Result:
 -----
 `test.txt` 
-```js
+```
 hello
 world
+```
+<br /><br />
 
+Add (no)
+-----
+`index.js`
+```js
+txt.add('hello');
+txt.add('world', 'no');
+```
+
+ Result:
+-----
+`test.txt` 
+```
+hello world
 ```
 <br /><br />
 
@@ -61,37 +79,26 @@ Add (top)
 -----
 `index.js`
 ```js
-txt.set('hello');
-txt.add('world ', 'top');
+txt.add('hello');
+txt.add('world', 'top');
 ```
 
  Result:
 -----
 `test.txt` 
-```js
-
-world hello
 ```
-<br /><br />
-
-Add (botton)
------
-`index.js`
-```js
-txt.set('hello ');
-txt.add('world', 'bottom');
-```
-
- Result:
------
-`test.txt` 
-```js
-hello world
+world
+hello
 ```
 <br /><br />
 
 Has (default)
 -----
+`test.txt` 
+```
+world
+hello
+```
 `index.js`
 ```js
 txt.has('world'); // true
@@ -100,6 +107,11 @@ txt.has('world'); // true
 
 Has (index)
 -----
+`test.txt` 
+```
+world
+hello
+```
 `index.js`
 ```js
 txt.has('world','index'); // 7
@@ -110,15 +122,42 @@ txt.has('world','i'); // 7
 ```
 <br /><br />
 
-Has (boolean)
+Replace (default)
 -----
+`test.txt` 
+```
+hello tomas
+```
 `index.js`
 ```js
-txt.has('world','boolean'); // true
+txt.replace('tomas','world'); // true
 ```
-or
+
+ Result:
+-----
+`test.txt` 
+```
+hello world
+```
+<br /><br />
+
+Replace (regex flags, [click here to learn javaScript RegExp](https://www.w3schools.com/jsref/jsref_obj_regexp.asp))
+-----
+`test.txt` 
+```
+hello ToMAs
+hi tomas
+```
 ```js
-txt.has('world','b'); // true
+txt.replace('tomas','world', 'gi');
+```
+
+ Result:
+-----
+`test.txt` 
+```
+hello world
+hi world
 ```
 <br /><br />
 
@@ -129,7 +168,7 @@ Clear
 txt.clear(); // true
 ```
 
-<br /><br />
+<!-- <br /><br />
 
 
 Support
@@ -137,10 +176,10 @@ Support
 <ul>
   <li><a href="mailto:support-@barid.com">support-@barid.com</a></li>
   <li><a href="https://wa.me/12132059765">+1 (213) 205-9765</a></li>
-</ul>
+</ul> -->
 
 <br />
 
 #
 
-Copyright © 2021 [Mustafa ALGhanim](https://www.npmjs.com/~mustafa-alghanim) with [Mr Dark](https://www.npmjs.com/~mr_dark)
+Copyright © 2023 [Mustafa ALGhanim](https://www.npmjs.com/~mustafa-alghanim) - [Mr Dark](https://www.npmjs.com/~mr_dark)

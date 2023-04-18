@@ -3,8 +3,6 @@
 You can easily modify, add, check for a specific text or delete the entire txt file content, without complications.
 <br /><br />
 
-You can easily modify, add, check for a specific text or delete the entire txt file content, without complications.
-<br /><br />
 
 Installation
 ------------

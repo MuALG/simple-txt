@@ -12,6 +12,8 @@ txt.has('world'); // true
 
 txt.replace('world', 'w'); // hello w
 
-// txt.clear();
+txt.length('l') // 1
+
+txt.clear();
 
 

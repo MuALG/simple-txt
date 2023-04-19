@@ -1,8 +1,5 @@
-[simple-txt](https://www.npmjs.com/package/simple-txt)
-------------
 You can easily modify, add, check for a specific text or delete the entire txt file content, without complications.
 <br /><br />
-
 
 Installation
 ------------
@@ -159,22 +156,59 @@ hi world
 ```
 <br /><br />
 
+Length (default)
+-----
+`test.txt` 
+```
+hello world
+```
+`index.js`
+```js
+txt.length(); // 11
+```
+<br /><br />
+
+Length (word)
+-----
+`test.txt` 
+```
+hello world
+```
+`index.js`
+```js
+txt.length('word'); // 2
+```
+or
+```js
+txt.length('w'); // 2
+```
+<br /><br /> 
+
+Length (line)
+-----
+`test.txt` 
+```
+1| hello
+2| world
+3| ..
+4| bye
+```
+`index.js`
+```js
+txt.length('line'); // 4
+```
+or
+```js
+txt.length('l'); // 4
+```
+<br /><br /> 
+
 Clear
 -----
 `index.js`
 ```js
 txt.clear(); // true
 ```
-
-<!-- <br /><br />
-
-
-Support
--------
-<ul>
-  <li><a href="mailto:support-@barid.com">support-@barid.com</a></li>
-  <li><a href="https://wa.me/12132059765">+1 (213) 205-9765</a></li>
-</ul> -->
 
 <br />
 

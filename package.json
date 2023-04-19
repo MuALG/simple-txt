@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "simple-txt": "^8.0.1"
+    "simple-txt": "^8.1.2"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
